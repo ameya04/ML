@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+
+bool LinearSearch(int n, int target, int array[]){
+    for ( int i =0; i<n; i++)
+    {
+        if (target==array[i])
+        return true;
+        
+       
+    }
+     return false;
+}
+
+int main(){
+    int array[]= {2,3,45,6,7,8};
+  if (LinearSearch(5,678,array))
+  (cout<<"found") <<endl;
+  else cout<<"not found";
+} 
