@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+
+int SumArray(int n,int array[]){
+    if (n==0)
+    return 0;
+    return  SumArray(n-1,array)+ array[n-1];
+}
+
+int main(){
+    int array[]={23,34,45,56,67};
+    int result= SumArray(5,array);
+    cout<<result;
+}
