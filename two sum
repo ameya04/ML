@@ -1,0 +1,16 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+
+int main(){
+int numbers[5]={12,23,34,45,56};
+int target=57;
+for(int i=0;i<5;i++){
+for(int j=0;j<5;j++){
+if(numbers[i]+numbers[j]==target){
+cout<<numbers[i]<<endl<<numbers[j];
+return 0;}
+}
+
+}cout<<"no pair found";
+}
