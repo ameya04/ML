@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+void DigSum(){
+cout<<" enter number ";
+int n;
+cin>> n; 
+
+if(n==0){
+cout<<" sum is 0";}
+
+else if (n%9==0){
+cout<<" sum is 9";}
+
+else{cout<<"sum is "<<n%9;}}
+
+int main(){
+DigSum();
+return 0;}
